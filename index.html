@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body class="bg-black">
     <!-- !NAVBAR -->
@@ -53,14 +54,18 @@
     <!-- !HERO SECTION -->
     <section class="text-gray-400 bg-black body-font">
       <div
-        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        class="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center"
       >
         <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
           class="lg:flex-grow md:w-3/4 lg:pr-24 text-3xl md:pr-12 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
         >
-          <p class="mb-2 leading-relaxed md:text-2xl">Build The Future With</p>
+          <p class="mb-2 leading-relaxed md:text-xl lg:text-2xl text-lg">
+            Build The Future With
+          </p>
           <h1
-            class="title-font text-6xl font-semibold mb-10 font-medium text-white md:text-5xl"
+            class="title-font lg:text-6xl font-semibold mb-10 font-medium text-white md:text-3xl"
           >
             Blockchain Technology <br class="hidden lg:inline-block" />and
             Currency
@@ -74,7 +79,11 @@
             </button>
           </div>
         </div>
-        <div class="lg:max-w-xlg md:w-4/5 w-5/6">
+        <div
+          class="lg:max-w-xlg md:w-4/5 w-5/6"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <img
             class="object-cover object-center rounded"
             alt="hero"
@@ -87,7 +96,10 @@
     <!-- !STATS -->
     <section class="text-gray-400 bg-black body-font z-3">
       <div class="container px-5 py-24 mx-auto z-10 relative">
-        <div class="flex flex-col text-center w-full mb-10">
+        <div
+          class="flex flex-col text-center w-full mb-10"
+          data-aos="fade-down"
+        >
           <h2
             class="text-xs text-emerald-400 tracking-widest font-medium title-font mb-3"
           >
@@ -100,6 +112,7 @@
           </h1>
         </div>
         <div
+          data-aos="fade-down"
           class="flex justify-center w-4/5 my-0 mx-auto flex-wrap -m-4 text-center"
         >
           <div class="p-4 sm:w-1/4 w-1/2">
@@ -132,12 +145,16 @@
         src="images/world-map-img.png"
         class="w-9/10 my-0 mx-auto -mt-32 opacity-70"
         alt=""
+        data-aos="fade-up"
       />
     </section>
     <!-- !COMPANIES -->
-    <section class="text-gray-400 bg-black body-font py-10">
+    <section
+      class="text-gray-400 md:bg-black opacity-30 bg-emerald-900 body-font py-10"
+    >
       <div
-        class="container py-24 px-24 bg-emerald-900 mx-auto rounded-full opacity-30 flex justify-center flex-wrap md:justify-around md:py-14 gap-y-10"
+        class="container py-24 px-24 bg-tr mx-auto md:rounded-full md:bg-emerald-900 flex-col md:flex-row flex justify-center flex-wrap md:justify-around md:py-14 gap-y-10"
+        data-aos="fade"
       >
         <img src="images/coinbase.svg" alt="" />
         <img src="images/blockchain.svg" alt="" />
@@ -152,7 +169,8 @@
         class="container mx-auto lg:grid lg:grid-cols-2 px-5 py-24 md:flex-row md:flex-col items-center md:flex"
       >
         <div
-          class="lg:bg-emerald-900 lg:bg-opacity-20 rounded-r-full p-24 lg:w-full md:w-9/10 lg:pr-24 md:pr-16 flex flex-col lg:items-start lg:text-left mb-16 md:mb-0 items-center text-center sm:bg-transparent sm:items-center sm:text-center"
+          class="lg:bg-emerald-900 lg:bg-opacity-20 rounded-r-full md:p-24 p-2-5 lg:w-full md:w-9/10 lg:pr-24 md:pr-16 flex flex-col lg:items-start lg:text-left mb-16 md:mb-0 items-center text-center sm:bg-transparent sm:items-center sm:text-center"
+          data-aos="fade-right"
         >
           <h1
             class="title-font font-bold sm:text-4xl text-3xl mb-4 font-medium text-white"
@@ -179,7 +197,11 @@
             </button>
           </div>
         </div>
-        <div class="ml-10 lg:max-w-full lg:w-full md:w-1/2 w-5/6">
+        <div
+          class="ml-10 lg:max-w-full lg:w-full md:w-1/2 w-5/6"
+          data-aos="flip-left"
+          data-aos-duration="1000"
+        >
           <img
             class="object-cover object-center rounded"
             alt="hero"
@@ -194,11 +216,14 @@
       <div class="container py-24 mx-auto">
         <h1
           class="title-font text-center font-bold sm:text-3xl text-3xl mb-16 font-medium text-white"
+          data-aos="fade-down"
         >
           How Do We Work Our System And Our Journey
         </h1>
         <div
           class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-emerald-900 sm:flex-row flex-col"
+          data-aos="fade-left"
+          data-aos-duration="1000"
         >
           <div
             class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-emerald-900 bg-opacity-50 flex-shrink-0"
@@ -222,6 +247,8 @@
         </div>
         <div
           class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-emerald-900 sm:flex-row flex-col"
+          data-aos="fade-right"
+          data-aos-duration="1000"
         >
           <div class="flex-grow mr-5 sm:text-left text-center mt-6 sm:mt-0">
             <h2
@@ -242,7 +269,11 @@
             <img src="images/research.svg" alt="" class="p-8" />
           </div>
         </div>
-        <div class="flex items-center lg:w-4/5 mx-auto sm:flex-row flex-col">
+        <div
+          class="flex items-center lg:w-4/5 mx-auto sm:flex-row flex-col"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <div
             class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-emerald-900 bg-opacity-50 flex-shrink-0"
           >
@@ -264,6 +295,7 @@
         </div>
         <button
           class="flex mx-auto mt-20 text-white border-solid border-2 border-emerald-400 py-3 px-16 focus:outline-none hover:bg-emerald-900 rounded text-lg font-semibold"
+          data-aos="fade"
         >
           Let's See More
         </button>
@@ -275,12 +307,16 @@
       <div class="container px-5 py-24 mx-auto">
         <h1
           class="text-3xl font-medium title-font text-white mb-12 text-center font-bold"
+          data-aos="fade-down"
         >
           Testimonials
         </h1>
         <div class="flex flex-wrap -m-4">
           <div class="p-4 md:w-1/2 w-full">
-            <div class="h-full bg-emerald-900 bg-opacity-30 p-8 rounded">
+            <div
+              class="h-full bg-emerald-900 bg-opacity-30 p-8 rounded"
+              data-aos="fade-right"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -313,7 +349,10 @@
             </div>
           </div>
           <div class="p-4 md:w-1/2 w-full">
-            <div class="h-full bg-emerald-900 bg-opacity-30 p-8 rounded">
+            <div
+              class="h-full bg-emerald-900 bg-opacity-30 p-8 rounded"
+              data-aos="fade-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -352,7 +391,9 @@
     <!-- !FOOTER -->
     <footer class="text-gray-400 bg-emerald-900 bg-opacity-20 body-font">
       <div class="container px-5 py-16 mx-auto 0">
-        <div class="flex flex-wrap md:text-left text-center order-first mx-auto">
+        <div
+          class="flex flex-wrap md:text-left text-center order-first mx-auto"
+        >
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2
               class="title-font font-medium text-white tracking-widest text-md mb-3"
@@ -510,5 +551,9 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
